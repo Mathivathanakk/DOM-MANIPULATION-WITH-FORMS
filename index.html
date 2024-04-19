@@ -14,14 +14,14 @@
   </head>
   <body>
     <h1 id="title">DOM MANIPULATION WITH FORMS</h1>
-    <p id="description">Please fill out this survey form.</p>
+    <p id="description">Please fill out this form.</p>
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
-          <h3>SURVEY FORM</h3>
-          <form class="survey-form" id="survey-form">
+          <h3>DOM FORM</h3>
+          <form class="form" id="form">
             <div class="mb-3 form-group">
-              <label for="first-name" class="form-label" id="name-label"
+              <label for="first-name" class="form-label" 
                 >First Name</label
               >
               <input
@@ -33,7 +33,7 @@
               />
             </div>
             <div class="mb-3 form-group">
-              <label for="last-name" class="form-label" id="name-label"
+              <label for="last-name" class="form-label"
                 >Last Name</label
               >
               <input
@@ -48,7 +48,7 @@
               <label for="address" class="form-label">Address</label>
               <textarea
                 class="form-control"
-                id="comments"
+                id="address"
                 rows="3"
                 placeholder="Enter your Address"
                 required
@@ -66,10 +66,11 @@
                 required
               />
             </div>
-            <label for="genderoutput" id="gender" class="form-check mb-3 mt-3"
+           
+            <div class="form-group">
+              <label for="genderoutput" id="gender" class="form-check mb-3 mt-3"
               >Gender</label
             >
-            <div class="form-group">
               <input
                 class="form-check-input"
                 type="radio"
@@ -125,7 +126,7 @@
                 >Pincode</label
               >
               <input
-                type="tel"
+                type="text"
                 class="form-control"
                 id="pincode"
                 placeholder="Enter your pincode"
@@ -162,46 +163,52 @@
         </div>
 
         <div class="col-12 col-md-6">
-          <h3>TABLE</h3>
           <table class="table">
-            <tr>
-              <td>FirstName:</td>
-              <td id="name1"></td>
-            </tr>
+            <thead>
+              <tr>
+                <h3>TABLE</h3>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>FirstName:</td>
+                <td id="name1"></td>
+              </tr>
 
-            <tr>
-              <td>LastName:</td>
-              <td id="name2"></td>
-            </tr>
-            <tr>
-              <td>Address:</td>
-              <td id="name3"></td>
-            </tr>
+              <tr>
+                <td>LastName:</td>
+                <td id="name2"></td>
+              </tr>
+              <tr>
+                <td>Address:</td>
+                <td id="name3"></td>
+              </tr>
 
-            <tr>
-              <td>Email:</td>
-              <td id="name4"></td>
-            </tr>
-            <tr>
-              <td>Gender:</td>
-              <td id="name5"></td>
-            </tr>
-            <tr>
-              <td>Favorite foods:</td>
-              <td id="name6"></td>
-            </tr>
-            <tr>
-              <td>Pincode:</td>
-              <td id="name7"></td>
-            </tr>
-            <tr>
-              <td>State:</td>
-              <td id="name8"></td>
-            </tr>
-            <tr>
-              <td>Country:</td>
-              <td id="name9"></td>
-            </tr>
+              <tr>
+                <td>Email:</td>
+                <td id="name4"></td>
+              </tr>
+              <tr>
+                <td>Gender:</td>
+                <td id="name5"></td>
+              </tr>
+              <tr>
+                <td>Favorite foods:</td>
+                <td id="name6"></td>
+              </tr>
+              <tr>
+                <td>Pincode:</td>
+                <td id="name7"></td>
+              </tr>
+              <tr>
+                <td>State:</td>
+                <td id="name8"></td>
+              </tr>
+              <tr>
+                <td>Country:</td>
+                <td id="name9"></td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>

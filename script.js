@@ -4,7 +4,7 @@ function submitting(event) {
   event.preventDefault();
   const firstname = document.getElementById("first-name").value;
   const lastname = document.getElementById("last-name").value;
-  const address = document.getElementById("comments").value;
+  const address = document.getElementById("address").value;
   const email = document.getElementById("email").value;
   const gender = document.querySelector("input[name='gender']:checked").value;
   const foods = document.querySelectorAll(
