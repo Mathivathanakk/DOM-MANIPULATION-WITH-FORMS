@@ -1,0 +1,9 @@
+h1,p{
+display: flex;
+text-align: center;
+justify-content: center;
+color: crimson;
+}
+body{
+    background-color: burlywood !important;
+}
